@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{FF8DC57D-9765-EE42-F4FE-622203DA82C4}</ProjectGuid>
+	<ProjectGuid>{2ECA18CE-2CBD-BEFA-CB59-4954F0BE3218}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,8 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraControll.js" />
      <Compile Include="Assets\Scripts\GameManager.js" />
      <Compile Include="Assets\Scripts\MainMenuGUI.js" />
+     <Compile Include="Assets\Scripts\PlayerController.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
